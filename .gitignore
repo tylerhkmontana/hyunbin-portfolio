@@ -1,0 +1,11 @@
+.DS_Store
+_site/
+.preview/
+node_modules/
+.next/
+out/
+.vercel/
+*.tsbuildinfo
+.env*
+!.env.example
+npm-debug.log*
