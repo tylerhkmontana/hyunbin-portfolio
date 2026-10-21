@@ -89,7 +89,7 @@ a:hover { color: var(--blue); }
 .project-grid { display: grid; gap: var(--space-12); margin-top: var(--space-8); }
 .project-card { min-width: 0; }
 .project-image { aspect-ratio: 1.8; display: flex; align-items: center; justify-content: center; overflow: hidden; border: 1px solid var(--line); background: var(--white); }
-.order-image { padding: var(--space-4); }
+.order-image { padding: 0; }
 
 .template-image { padding: 0; }
 
@@ -192,7 +192,7 @@ body:has(.resume-sheet) { background: #f0f1ee; }
 .section-heading h2, .contact-section h2 { font-size: var(--text-xl); font-weight: 500; }
 .featured-visual img { border: 1px solid var(--line); width: 100%; }
 .image-caption { font-size: var(--text-xs); color: var(--muted); }
-.order-image img { height: 100%; width: auto; object-fit: contain; }
+.order-image img { height: 100%; width: 100%; object-fit: contain; }
 .template-image img { width: 100%; height: 100%; object-fit: contain; }
 
 @media (min-width: 768px) {

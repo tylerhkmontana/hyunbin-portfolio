@@ -52,20 +52,20 @@ export default function HomePage() {
 
       <div className="project-grid">
         <article className="project-card">
-          <a className="project-image order-image" href="https://infinite-order.vercel.app/server" target="_blank" rel="noopener noreferrer" aria-label="Open Infinite Order demo in a new tab">
-            <img src="/assets/infinite-order.png" width="310" height="550" alt="Infinite Order mobile order pad showing menu categories, prices, and item options" loading="lazy" />
+          <a className="project-image order-image" href="https://infinite-order.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open Infinite Order demo in a new tab">
+            <img src="/assets/infinite-order.jpg" width="1280" height="720" alt="Infinite Order’s redesigned table dashboard with service statuses, allergy notes, and a selected table’s order log" loading="lazy" />
           </a>
           <div className="project-heading"><h3>Infinite Order</h3><span className="project-kind">RESTAURANT OPERATIONS</span></div>
-          <p>A mobile order pad built for MOKYO. Organize tables, track orders, and keep menu and allergen information close at hand.</p>
+          <p>A restaurant service workspace built for MOKYO, redesigned around a table dashboard, searchable menu, and order queue. Explore the interface with sample data saved on your device.</p>
           <ul className="tags" aria-label="Infinite Order technologies"><li>Next.js</li><li>Firebase</li><li>PWA</li></ul>
-          <div className="project-links"><a href="https://infinite-order.vercel.app/server" target="_blank" rel="noopener noreferrer">Live demo</a><a href="https://github.com/tylerhkmontana/infinite-order" target="_blank" rel="noopener noreferrer">GitHub</a><span className="link-note">Demo requires an order pad ID</span></div>
+          <div className="project-links"><a href="https://infinite-order.vercel.app/" target="_blank" rel="noopener noreferrer">Live demo</a><a href="https://github.com/tylerhkmontana/infinite-order" target="_blank" rel="noopener noreferrer">GitHub</a><span className="link-note">No sign-in required · Device-local demo</span></div>
         </article>
         <article className="project-card">
           <a className="project-image template-image" href="https://tylerkim-design-portfolio.vercel.app/templates" target="_blank" rel="noopener noreferrer" aria-label="Explore the portfolio templates in a new tab">
-            <img src="/assets/templates.jpg" width="1200" height="675" alt="Cashmere portfolio template with an editorial image grid and editable content" loading="lazy" />
+            <img src="/assets/templates.jpg" width="900" height="500" alt="Portfolio Templates’ redesigned collection introduction with six designs and editorial, minimal, and expressive style filters" loading="lazy" />
           </a>
           <div className="project-heading"><h3>Portfolio Templates</h3><span className="project-kind">WEB DESIGN &amp; CMS</span></div>
-          <p>A collection of customizable portfolio templates for creatives, with Contentful-powered editing and responsive previews.</p>
+          <p>An editorial collection of six Contentful-powered portfolio templates. Browse by design style, switch between desktop and mobile previews, and explore interactive color themes.</p>
           <ul className="tags" aria-label="Portfolio Templates technologies"><li>Next.js</li><li>Contentful</li><li>Sass</li></ul>
           <div className="project-links"><a href="https://tylerkim-design-portfolio.vercel.app/templates" target="_blank" rel="noopener noreferrer">Explore templates</a><a href="https://github.com/tylerkim-freelancing/tylerkim-design-portfolio" target="_blank" rel="noopener noreferrer">GitHub</a></div>
         </article>

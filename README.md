@@ -53,15 +53,15 @@ Page content is rendered with React components, not injected HTML. Only the year
 
 - JoyMeetsTaste is described as pre-launch in October 2026. Update the three page components after confirming the Fuyu Ramen launch. Do not add unverified order counts or business outcomes.
 - Personal ownership: project leadership and all UI/UX design. Architecture and development: shared with the co-founder.
-- Infinite Order and Portfolio Templates link to their existing versions. Their planned renewals are not represented as completed work.
+- Infinite Order and Portfolio Templates reflect their redesigned live versions. Infinite Order opens a device-local demo with sample tables and no sign-in requirement; Portfolio Templates presents six designs with style filters, desktop/mobile previews, and interactive themes.
 - Security content describes certification and training, not professional security engagements.
 - The résumé is an engineering-focused web version. The original DOCX is unchanged.
 
 ## Assets and design
 
 - `public/assets/joymeetstaste.jpg`: example restaurant storefront from `https://www.joymeetstaste.com/marketing/joymeetstaste-bunsik-hero.png`, labeled as a preview rather than the Fuyu Ramen site.
-- `public/assets/templates.jpg`: Cashmere preview from the public `tylerkim-freelancing/tylerkim-design-portfolio` repository.
-- `public/assets/infinite-order.png`: frame from the public Infinite Order README demonstration.
+- `public/assets/templates.jpg`: cropped introduction and design-style filters from the redesigned live Portfolio Templates collection at `https://tylerkim-design-portfolio.vercel.app/templates`.
+- `public/assets/infinite-order.jpg`: redesigned live table dashboard at `https://infinite-order.vercel.app/`, showing sample service data in device-local demo mode.
 - `public/assets/favicon.svg`: HK monogram created for this portfolio.
 
 No third-party fonts, analytics, or tracking services are loaded. The no-diagonal-arrows rule remains in `docs/ai/front-spec.md`.
